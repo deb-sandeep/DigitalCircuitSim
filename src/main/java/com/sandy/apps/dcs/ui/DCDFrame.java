@@ -13,30 +13,6 @@ import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCDFrame extends JFrame {
 
-    // This inner class represents the Status bar in the application.
-    // This class has been made a inner class because it makes more
-    // sense for the customized frame to look after the status bar.
-    // This will also facilitate the fact that the frame can take proper
-    // action when the status bar is visible or not.
-
-    // A direct consiquence of this is that we will have to request the
-    // frame to show any status message.
-
-    // IF this class were a JPanel then we could have multiple labels
-    // inside it. But this sounds more futuristic.
-    // private class DCDStatusBar extends JLabel
-    // {
-    // DCDStatusBar()
-    // {
-    // super("Welcome to world of walrus");
-    // //CHECK=> Look at this why its not working
-    // setBackground(DCDUtility.getInstance().getStatusbarBackgroundColor());
-    // setMinimumSize(new Dimension(100,50));
-    // }
-    // void showMessage(String message){setText(message);}
-    // void clearMessage(){setText("");}
-    // }
-
     private DCDStatusBar statusbar ;
 
     public DCDFrame( String str ) {
@@ -55,8 +31,6 @@ public class DCDFrame extends JFrame {
         addWindowListener( new WindowAdapter() {
 
             public void windowClosing( WindowEvent e ) {
-
-                // TODO => Ask for confirmation.
                 if( !( DCDFrame.this instanceof DCDICExpanderFrame ) ) DCDUtility
                         .getInstance().savePropertiesInformation() ;
                 setVisible( false ) ;
@@ -66,7 +40,6 @@ public class DCDFrame extends JFrame {
     }
 
     public DCDFrame() {
-
         this( "Walrus .." ) ;
     }
 
