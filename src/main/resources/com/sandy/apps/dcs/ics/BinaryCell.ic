@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCDIC numPorts="4" name="BinaryCell">
+	<ShortDescription>
+		This is memory cell.
+	</ShortDescription>
+	<LongDescription>
+		This is a Binary memory cell. This is used to construct RAMs. This circuit has 3 inputs SELECT, INPUT and READ/WRITE and one output.
+
+The information from the Input gate is transferred to the flip flop when the SELECT=1 and R/W is 0.
+
+The information from the cell is transferred to the output when the SELECT=1 and R/W is 1.
+	</LongDescription>
+	<Connectors>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[385.0165.0428.0165.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="385.0" y="165.0"></Point>
+				<Point x="428.0" y="165.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[244.0287.0262.0287.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[289.0239.0291.0272.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="289.0" y="239.0"></Point>
+				<Point x="291.0" y="272.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[97.0163.0182.0164.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="97.0" y="163.0"></Point>
+				<Point x="182.0" y="164.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[331.0272.0331.0225.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="331.0" y="272.0"></Point>
+				<Point x="331.0" y="225.0"></Point>
+				<Point x="161.0" y="225.0"></Point>
+				<Point x="161.0" y="173.0"></Point>
+				<Point x="182.0" y="174.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[222.0205.0240.0205.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="222.0" y="205.0"></Point>
+				<Point x="240.0" y="205.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[272.067.0330.067.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="272.0" y="67.0"></Point>
+				<Point x="330.0" y="67.0"></Point>
+				<Point x="330.0" y="156.0"></Point>
+				<Point x="345.0" y="155.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[330.080.0169.080.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[169.0155.0182.0154.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="169.0" y="155.0"></Point>
+				<Point x="182.0" y="154.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[244.0287.0262.0287.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="244.0" y="287.0"></Point>
+				<Point x="262.0" y="287.0"></Point>
+				<Point x="262.0" y="239.0"></Point>
+				<Point x="341.0" y="239.0"></Point>
+				<Point x="341.0" y="174.0"></Point>
+				<Point x="345.0" y="175.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[222.0164.0240.0165.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="222.0" y="164.0"></Point>
+				<Point x="240.0" y="165.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[280.0165.0345.0165.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="280.0" y="165.0"></Point>
+				<Point x="345.0" y="165.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[158.0204.0182.0205.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="158.0" y="204.0"></Point>
+				<Point x="182.0" y="205.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[272.067.0330.067.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[330.080.0169.080.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="330.0" y="80.0"></Point>
+				<Point x="169.0" y="80.0"></Point>
+				<Point x="169.0" y="196.0"></Point>
+				<Point x="182.0" y="195.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[97.0163.0182.0164.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[117.0163.0118.0204.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="117.0" y="163.0"></Point>
+				<Point x="118.0" y="204.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[331.0272.0331.0225.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[163.0216.0182.0215.0]"></ID>
+			 
+ 
+			<DCDConnectorUI>
+				<Point x="163.0" y="216.0"></Point>
+				<Point x="182.0" y="215.0"></Point>
+			</DCDConnectorUI>
+		</DCDConnector>
+	</Connectors>
+	<Gates>
+		<DCDGate type="NOT" numInputPorts="1" name="NOT">
+			<ID value="NOT311;272"></ID>
+			 
+ 
+			<DCDGateModel>
+				<InputPorts>
+					<PortCollection NumPorts="1">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[289.0239.0291.0272.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+					<PortCollection NumPorts="1">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[331.0272.0331.0225.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+			<DCDGateUI>
+				<Point x="291" y="257"></Point>
+			</DCDGateUI>
+		</DCDGate>
+		<DCDGate type="NOT" numInputPorts="1" name="NOT">
+			<ID value="NOT138;204"></ID>
+			 
+ 
+			<DCDGateModel>
+				<InputPorts>
+					<PortCollection NumPorts="1">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[117.0163.0118.0204.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+					<PortCollection NumPorts="1">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[158.0204.0182.0205.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+			<DCDGateUI>
+				<Point x="118" y="189"></Point>
+			</DCDGateUI>
+		</DCDGate>
+		<DCDGate type="AND" numInputPorts="3" name="AND">
+			<ID value="AND365;165"></ID>
+			 
+ 
+			<DCDGateModel>
+				<InputPorts>
+					<PortCollection NumPorts="3">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[272.067.0330.067.0]"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="1"></ID>
+							<ConnectorID value="CONNECTOR[280.0165.0345.0165.0]"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="2"></ID>
+							<ConnectorID value="CONNECTOR[244.0287.0262.0287.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+					<PortCollection NumPorts="1">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[385.0165.0428.0165.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+			<DCDGateUI>
+				<Point x="345" y="145"></Point>
+			</DCDGateUI>
+		</DCDGate>
+		<DCDGate type="AND" numInputPorts="3" name="AND">
+			<ID value="AND202;205"></ID>
+			 
+ 
+			<DCDGateModel>
+				<InputPorts>
+					<PortCollection NumPorts="3">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[330.080.0169.080.0]"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="1"></ID>
+							<ConnectorID value="CONNECTOR[158.0204.0182.0205.0]"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="2"></ID>
+							<ConnectorID value="CONNECTOR[163.0216.0182.0215.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+					<PortCollection NumPorts="1">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[222.0205.0240.0205.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+			<DCDGateUI>
+				<Point x="182" y="185"></Point>
+			</DCDGateUI>
+		</DCDGate>
+		<DCDGate type="AND" numInputPorts="3" name="AND">
+			<ID value="AND202;164"></ID>
+			 
+ 
+			<DCDGateModel>
+				<InputPorts>
+					<PortCollection NumPorts="3">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[169.0155.0182.0154.0]"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="1"></ID>
+							<ConnectorID value="CONNECTOR[97.0163.0182.0164.0]"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="2"></ID>
+							<ConnectorID value="CONNECTOR[331.0272.0331.0225.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+					<PortCollection NumPorts="1">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[222.0164.0240.0165.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+			<DCDGateUI>
+				<Point x="182" y="144"></Point>
+			</DCDGateUI>
+		</DCDGate>
+		<DCDGate type="RSFLIPFLOP" numInputPorts="3" name="RS Flip Flop">
+			<ID value="RSFLIPFLOP260;185"></ID>
+			 
+			<LongDescription>
+This flip flop operates without clock pulses. This flip flop is just used to store the information and later reading it.			</LongDescription>
+			<DCDGateModel>
+				<InputPorts>
+					<PortCollection NumPorts="3">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[222.0164.0240.0165.0]"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="1"></ID>
+							<ConnectorID value="null"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="2"></ID>
+							<ConnectorID value="CONNECTOR[222.0205.0240.0205.0]"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+					<PortCollection NumPorts="2">
+						<Port>
+							<ID value="0"></ID>
+							<ConnectorID value="CONNECTOR[280.0165.0345.0165.0]"></ConnectorID>
+						</Port>
+						<Port>
+							<ID value="1"></ID>
+							<ConnectorID value="null"></ConnectorID>
+						</Port>
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+			<DCDGateUI>
+				<Point x="240" y="150"></Point>
+			</DCDGateUI>
+		</DCDGate>
+	</Gates>
+	<ICs></ICs>
+	<DCDMessages>
+		<DCDMessage value="SR - Flip Flop" x="235" y="151"/>
+
+		<DCDMessage value="Enable" x="235" y="92"/>
+
+		<DCDMessage value="Input" x="65" y="181"/>
+
+		<DCDMessage value="Output" x="435" y="187"/>
+
+		<DCDMessage value="Read(1) / Write(0)" x="193" y="317"/>
+
+	</DCDMessages>	
+	<TagCollection>
+		<Tag Name="" Type="OUTPUT">
+			<Port>
+				<ID value="1"></ID>
+				<ConnectorID value="CONNECTOR[385.0165.0428.0165.0]"></ConnectorID>
+			</Port>
+			<Location>
+				<Point x="428" y="165"></Point>
+			</Location>
+			<ShortDescription>
+OUTPUT			</ShortDescription>
+			<LongDescription>
+This is the output of the memory element.			</LongDescription>
+		</Tag>
+		<Tag Name="" Type="INPUT">
+			<Port>
+				<ID value="2"></ID>
+				<ConnectorID value="CONNECTOR[272.067.0330.067.0]"></ConnectorID>
+			</Port>
+			<Location>
+				<Point x="272" y="67"></Point>
+			</Location>
+			<ShortDescription>
+SELECT			</ShortDescription>
+			<LongDescription>
+This steady input should be one when an operation is to be performed on the memory cell. The operations that can be performed on this memory cell are either read or write information from the cell.			</LongDescription>
+		</Tag>
+		<Tag Name="" Type="INPUT">
+			<Port>
+				<ID value="3"></ID>
+				<ConnectorID value="CONNECTOR[97.0163.0182.0164.0]"></ConnectorID>
+			</Port>
+			<Location>
+				<Point x="97" y="163"></Point>
+			</Location>
+			<ShortDescription>
+INPUT			</ShortDescription>
+			<LongDescription>
+This is the input of the memory cell. When the SELECT is 1 and READ/WRITE is 0 then the information present in the INPUT is transfered to the flip flop.			</LongDescription>
+		</Tag>
+		<Tag Name="" Type="INPUT">
+			<Port>
+				<ID value="4"></ID>
+				<ConnectorID value="CONNECTOR[244.0287.0262.0287.0]"></ConnectorID>
+			</Port>
+			<Location>
+				<Point x="244" y="287"></Point>
+			</Location>
+			<ShortDescription>
+Read / Write			</ShortDescription>
+			<LongDescription>
+This is the read/write enable for the memory cell. When this input is 0 the data present in the Input is transferred to the flip flop and stored there. When the read/write is 1 then the data is transferred from the flip flop to the output gate.
+
+1  -  READ information from the cell.
+0  - WRITE information to the cell.			</LongDescription>
+		</Tag>
+	</TagCollection>
+</DCDIC>

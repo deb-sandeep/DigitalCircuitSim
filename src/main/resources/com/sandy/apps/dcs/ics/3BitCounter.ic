@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCDIC numPorts="5" name="3 Bit Counter">
+	<ShortDescription>
+		This is a 3 bit counter.
+	</ShortDescription>
+	<LongDescription>
+		This IC counts from 000 - 111 and again back. 
+This circuit comprises of 3 T-Flip Flops whose input functions are as follows:
+
+T0 = 1
+T1 = T0
+T2 = T0.T1
+	</LongDescription>
+	<Connectors>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[117.0211.0441.0211.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[201.0211.0201.0185.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="201.0" y="211.0"  />
+				<Point x="201.0" y="185.0"  />
+				<Point x="210.0" y="185.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[117.0211.0441.0211.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[330.0211.0330.0184.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="330.0" y="211.0"  />
+				<Point x="330.0" y="184.0"  />
+				<Point x="340.0" y="185.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[117.0211.0441.0211.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="117.0" y="211.0"  />
+				<Point x="441.0" y="211.0"  />
+				<Point x="441.0" y="185.0"  />
+				<Point x="450.0" y="185.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[501.0145.0501.0109.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[327.0109.0161.0109.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="327.0" y="109.0"  />
+				<Point x="161.0" y="109.0"  />
+				<Point x="161.0" y="140.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[380.0145.0410.0145.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[401.0145.0401.083.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="401.0" y="145.0"  />
+				<Point x="401.0" y="83.0"  />
+				<Point x="150.0" y="83.0"  />
+				<Point x="150.0" y="142.0"  />
+				<Point x="150.0" y="151.0"  />
+				<Point x="161.0" y="150.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[201.0145.0210.0145.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="201.0" y="145.0"  />
+				<Point x="210.0" y="145.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[490.0145.0515.0145.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[501.0145.0501.0109.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="501.0" y="145.0"  />
+				<Point x="501.0" y="109.0"  />
+				<Point x="321.0" y="109.0"  />
+				<Point x="321.0" y="146.0"  />
+				<Point x="340.0" y="145.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[119.095.0435.095.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="119.0" y="95.0"  />
+				<Point x="435.0" y="95.0"  />
+				<Point x="435.0" y="146.0"  />
+				<Point x="450.0" y="145.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[250.0145.0280.0145.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="250.0" y="145.0"  />
+				<Point x="280.0" y="145.0"  />
+				<Point x="280.0" y="270.0"  />
+				<Point x="188.0" y="270.0"  />
+				<Point x="188.0" y="291.0"  />
+				<Point x="215.0" y="290.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[380.0145.0410.0145.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="380.0" y="145.0"  />
+				<Point x="410.0" y="145.0"  />
+				<Point x="410.0" y="269.0"  />
+				<Point x="320.0" y="269.0"  />
+				<Point x="320.0" y="291.0"  />
+				<Point x="341.0" y="290.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[490.0145.0515.0145.0]"/>
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDConnectorUI>
+				<Point x="490.0" y="145.0"  />
+				<Point x="515.0" y="145.0"  />
+				<Point x="515.0" y="269.0"  />
+				<Point x="422.0" y="268.0"  />
+				<Point x="422.0" y="291.0"  />
+				<Point x="451.0" y="290.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+	</Connectors>
+	<Gates>
+		<DCDGate type="AND" numInputPorts="2" name="AND">
+			<ID value="AND181;145" />
+			<ShortDescription>
+			</ShortDescription>
+			<LongDescription>
+			</LongDescription>
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[327.0109.0161.0109.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[401.0145.0401.083.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[201.0145.0210.0145.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="161" y="130" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="TFLIPFLOP" numInputPorts="2" name="T Flip-Flop">
+			<ID value="TFLIPFLOP470;165" />
+			<ShortDescription>
+T0			</ShortDescription>
+			<LongDescription>
+This flip flop produces the 0th bit of the output.			</LongDescription>
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[119.095.0435.095.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[117.0211.0441.0211.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[490.0145.0515.0145.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="null" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="450" y="130" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="TFLIPFLOP" numInputPorts="2" name="T Flip-Flop">
+			<ID value="TFLIPFLOP360;165" />
+			<ShortDescription>
+T1			</ShortDescription>
+			<LongDescription>
+This produces the first bit of the
+output.			</LongDescription>
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[501.0145.0501.0109.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[330.0211.0330.0184.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[380.0145.0410.0145.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="null" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="340" y="130" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="TFLIPFLOP" numInputPorts="2" name="T Flip-Flop">
+			<ID value="TFLIPFLOP230;165" />
+			<ShortDescription>
+T2			</ShortDescription>
+			<LongDescription>
+This produces the 2nd bit of the Output.			</LongDescription>
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[201.0145.0210.0145.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[201.0211.0201.0185.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[250.0145.0280.0145.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="null" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="210" y="130" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+	</Gates>
+	<ICs>
+	</ICs>
+	<TagCollection>
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[490.0145.0515.0145.0]" />
+				</Port>
+		<Location>
+			<Point x="451" y="290"  />
+		</Location>
+			<ShortDescription>
+O/P 0 Bit			</ShortDescription>
+			<LongDescription>
+This is the lowermost bit of the output.			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="2" />
+					<ConnectorID value="CONNECTOR[380.0145.0410.0145.0]" />
+				</Port>
+		<Location>
+			<Point x="341" y="290"  />
+		</Location>
+			<ShortDescription>
+O/P 1st Bit			</ShortDescription>
+			<LongDescription>
+This is the first bit of the output.
+THis comes from T2			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="3" />
+					<ConnectorID value="CONNECTOR[250.0145.0280.0145.0]" />
+				</Port>
+		<Location>
+			<Point x="215" y="290"  />
+		</Location>
+			<ShortDescription>
+O/P 2nd			</ShortDescription>
+			<LongDescription>
+This is the upper most bit of the output.			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="4" />
+					<ConnectorID value="CONNECTOR[119.095.0435.095.0]" />
+				</Port>
+		<Location>
+			<Point x="119" y="95"  />
+		</Location>
+			<ShortDescription>
+Input of 1			</ShortDescription>
+			<LongDescription>
+This input has to be 1 always for the IC to function.			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="5" />
+					<ConnectorID value="CONNECTOR[117.0211.0441.0211.0]" />
+				</Port>
+		<Location>
+			<Point x="117" y="211"  />
+		</Location>
+			<ShortDescription>
+CLK			</ShortDescription>
+			<LongDescription>
+This is the clock port.			</LongDescription>
+		</Tag>
+
+	</TagCollection>
+</DCDIC>

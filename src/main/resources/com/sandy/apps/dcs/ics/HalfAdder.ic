@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCDIC numPorts="4">
+	<Description>
+		This is a half adder circuit. Here S(2)=3 XOR 4 and C(1)=3 and 4
+	</Description>
+	<Connectors>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[169.083.0216.082.0]"/>
+			<DCDConnectorUI>
+				<Point x="169.0" y="83.0"  />
+				<Point x="216.0" y="82.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[170.042.0217.039.0]"/>
+			<DCDConnectorUI>
+				<Point x="170.0" y="42.0"  />
+				<Point x="217.0" y="39.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[68.083.080.083.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[97.047.097.089.0]"/>
+			<DCDConnectorUI>
+				<Point x="97.0" y="47.0"  />
+				<Point x="97.0" y="89.0"  />
+				<Point x="129.0" y="88.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[68.037.0130.037.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[111.037.0111.078.0]"/>
+			<DCDConnectorUI>
+				<Point x="111.0" y="37.0"  />
+				<Point x="111.0" y="78.0"  />
+				<Point x="129.0" y="78.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[68.083.080.083.0]"/>
+			<DCDConnectorUI>
+				<Point x="68.0" y="83.0"  />
+				<Point x="80.0" y="83.0"  />
+				<Point x="80.0" y="48.0"  />
+				<Point x="130.0" y="47.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[68.037.0130.037.0]"/>
+			<DCDConnectorUI>
+				<Point x="68.0" y="37.0"  />
+				<Point x="130.0" y="37.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+	</Connectors>
+	<Gates>
+		<DCDGate type="AND" numInputPorts="2" name="AND">
+			<ID value="AND149;83" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[111.037.0111.078.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[97.047.097.089.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[169.083.0216.082.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="129" y="68" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="XOR" numInputPorts="2" name="XOR">
+			<ID value="XOR150;42" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[68.037.0130.037.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[68.083.080.083.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[170.042.0217.039.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="130" y="27" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+	</Gates>
+	<TagCollection>
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[169.083.0216.082.0]" />
+				</Port>
+		<Location>
+			<Point x="216" y="82"  />
+		</Location>
+		</Tag>
+
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="2" />
+					<ConnectorID value="CONNECTOR[170.042.0217.039.0]" />
+				</Port>
+		<Location>
+			<Point x="217" y="39"  />
+		</Location>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="3" />
+					<ConnectorID value="CONNECTOR[68.037.0130.037.0]" />
+				</Port>
+		<Location>
+			<Point x="68" y="37"  />
+		</Location>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="4" />
+					<ConnectorID value="CONNECTOR[68.083.080.083.0]" />
+				</Port>
+		<Location>
+			<Point x="68" y="83"  />
+		</Location>
+		</Tag>
+
+	</TagCollection>
+</DCDIC>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCDIC numPorts="2" name="Connector">
+	<ShortDescription>
+		THis is a simple connector
+	</ShortDescription>
+	<LongDescription>
+		
+	</LongDescription>
+	<Connectors>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[106.069.0181.069.0]"/>
+			<DCDConnectorUI>
+				<Point x="106.0" y="69.0"  />
+				<Point x="181.0" y="69.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+	</Connectors>
+	<Gates>
+	</Gates>
+	<ICs>
+	</ICs>
+	<TagCollection>
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[106.069.0181.069.0]" />
+				</Port>
+		<Location>
+			<Point x="181" y="69"  />
+		</Location>
+			<ShortDescription>
+Output			</ShortDescription>
+			<LongDescription>
+This is the output			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="2" />
+					<ConnectorID value="CONNECTOR[106.069.0181.069.0]" />
+				</Port>
+		<Location>
+			<Point x="106" y="69"  />
+		</Location>
+			<ShortDescription>
+Input			</ShortDescription>
+		</Tag>
+
+	</TagCollection>
+</DCDIC>
