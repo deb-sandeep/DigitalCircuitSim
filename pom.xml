@@ -5,13 +5,6 @@
 	<version>1.0</version>
 	<name>Digital Circuit Simulator</name>
     <description>An application to simulate basic digital circuits</description>
-    <repositories>
-      <repository>
-        <id>my-local-repo</id>
-        <url>file://${project.basedir}/repo</url>
-      </repository>
-    </repositories>
-
     <build>
         <plugins>
             <plugin>
