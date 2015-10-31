@@ -2,8 +2,10 @@
 
 package com.sandy.apps.dcs.component.model ;
 
-import java.util.* ;
-import java.io.* ;
+import java.io.Serializable ;
+import java.util.Enumeration ;
+import java.util.Observable ;
+import java.util.Vector ;
 
 import com.sandy.apps.dcs.component.DCDConnector ;
 

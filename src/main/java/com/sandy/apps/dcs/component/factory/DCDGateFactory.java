@@ -1,4 +1,4 @@
-package com.sandy.apps.dcs.factory ;
+package com.sandy.apps.dcs.component.factory ;
 
 import java.util.Enumeration ;
 import java.util.Hashtable ;

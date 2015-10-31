@@ -2,21 +2,44 @@
 
 package com.sandy.apps.dcs.ui ;
 
-import java.awt.event.* ;
-import java.awt.geom.* ;
-import java.awt.* ;
-import java.util.* ;
+import java.awt.Graphics ;
+import java.awt.Point ;
+import java.awt.event.ActionEvent ;
+import java.awt.event.ActionListener ;
+import java.awt.event.KeyAdapter ;
+import java.awt.event.KeyEvent ;
+import java.awt.event.MouseAdapter ;
+import java.awt.event.MouseEvent ;
+import java.awt.event.MouseMotionAdapter ;
+import java.awt.geom.Point2D ;
+import java.io.File ;
+import java.util.Enumeration ;
+import java.util.Vector ;
 
-import javax.swing.* ;
+import javax.swing.AbstractButton ;
+import javax.swing.JOptionPane ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.component.view.* ;
-import com.sandy.apps.dcs.cor.Chain ;
-import com.sandy.apps.dcs.factory.* ;
-
-import java.io.* ;
+import com.sandy.apps.dcs.component.DCDClock ;
+import com.sandy.apps.dcs.component.DCDComponent ;
+import com.sandy.apps.dcs.component.DCDConnector ;
+import com.sandy.apps.dcs.component.DCDFlipFlop ;
+import com.sandy.apps.dcs.component.DCDGate ;
+import com.sandy.apps.dcs.component.DCDIC ;
+import com.sandy.apps.dcs.component.DCDInputGate ;
+import com.sandy.apps.dcs.component.DCDPulseInputGate ;
+import com.sandy.apps.dcs.component.DCDSteadyInputGate ;
+import com.sandy.apps.dcs.component.DCDTag ;
+import com.sandy.apps.dcs.component.DCDText ;
+import com.sandy.apps.dcs.component.factory.ComponentFactory ;
+import com.sandy.apps.dcs.component.factory.DCDICFactory ;
+import com.sandy.apps.dcs.component.model.DCDFlipFlopModel ;
+import com.sandy.apps.dcs.component.model.DCDICModel ;
+import com.sandy.apps.dcs.component.model.Port ;
+import com.sandy.apps.dcs.component.model.PortInfo ;
+import com.sandy.apps.dcs.component.view.DCDGateUI ;
+import com.sandy.apps.dcs.component.view.DCDICUI ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 /**
  * This class has three internal handlers which handle the events on the event

@@ -1,16 +1,18 @@
 package com.sandy.apps.dcs.component ;
 
-import java.awt.event.* ;
-import java.awt.* ;
-import java.io.* ;
+import java.awt.Component ;
+import java.awt.Graphics ;
+import java.awt.Point ;
+import java.awt.event.ActionEvent ;
+import java.awt.event.ActionListener ;
+import java.awt.event.MouseEvent ;
+import java.io.Serializable ;
 
-import javax.swing.* ;
-
-import com.sandy.apps.dcs.common.DCDUtility ;
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.component.view.* ;
-import com.sandy.apps.dcs.cor.Chain ;
-import com.sandy.apps.dcs.ui.* ;
+import com.sandy.apps.dcs.component.model.DCDComponentModel ;
+import com.sandy.apps.dcs.component.view.DCDComponentUI ;
+import com.sandy.apps.dcs.ui.DCDNameDialog ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 /**
  * Every component is a link in the chain of reponsibility. This ensures that

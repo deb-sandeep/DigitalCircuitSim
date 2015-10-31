@@ -1,16 +1,14 @@
 
 package com.sandy.apps.dcs.component.view ;
 
-import java.awt.* ;
-import java.awt.geom.* ;
-import java.awt.event.* ;
-import java.util.* ;
-import java.io.* ;
+import java.awt.geom.Point2D ;
+import java.io.Serializable ;
+import java.util.Observable ;
 
-import javax.swing.* ;
+import javax.swing.JMenuItem ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
+import com.sandy.apps.dcs.component.DCDInputGate ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public abstract class DCDInputGateUI extends DCDGateUI implements Serializable {
 

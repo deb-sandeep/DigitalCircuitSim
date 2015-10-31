@@ -1,15 +1,23 @@
 package com.sandy.apps.dcs.ui ;
 
-import javax.swing.* ;
+import java.awt.Cursor ;
+import java.io.File ;
+import java.io.FileOutputStream ;
+import java.io.IOException ;
+import java.util.Enumeration ;
+import java.util.Vector ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.cor.* ;
+import javax.swing.JFileChooser ;
 
-import java.io.* ;
-import java.util.* ;
-import java.awt.* ;
+import com.sandy.apps.dcs.component.DCDConnector ;
+import com.sandy.apps.dcs.component.DCDGate ;
+import com.sandy.apps.dcs.component.DCDIC ;
+import com.sandy.apps.dcs.component.DCDInputGate ;
+import com.sandy.apps.dcs.component.DCDLED ;
+import com.sandy.apps.dcs.component.DCDTag ;
+import com.sandy.apps.dcs.component.DCDText ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 // This is the class which saves the circuit information.
 // The circuit information is saved in the form of a XML file.

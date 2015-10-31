@@ -1,13 +1,25 @@
 
-package com.sandy.apps.dcs.ui.main ;
+package com.sandy.apps.dcs ;
 
-import javax.swing.* ;
+import java.awt.BorderLayout ;
+import java.awt.Dimension ;
+import java.awt.Toolkit ;
+import java.awt.event.WindowAdapter ;
+import java.awt.event.WindowEvent ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.ui.* ;
+import javax.swing.Box ;
+import javax.swing.BoxLayout ;
+import javax.swing.JPanel ;
+import javax.swing.JScrollPane ;
+import javax.swing.JTabbedPane ;
+import javax.swing.JTextArea ;
 
-import java.awt.* ;
-import java.awt.event.* ;
+import com.sandy.apps.dcs.ui.DCDCanvas ;
+import com.sandy.apps.dcs.ui.DCDController ;
+import com.sandy.apps.dcs.ui.DCDFrame ;
+import com.sandy.apps.dcs.ui.DCDMenuBar ;
+import com.sandy.apps.dcs.ui.DCDToolBar ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCD {
 

@@ -1,12 +1,10 @@
 package com.sandy.apps.dcs.component ;
 
-import java.util.* ;
-import java.awt.event.* ;
-import java.io.* ;
+import java.io.Serializable ;
 
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.component.view.* ;
-import com.sandy.apps.dcs.cor.* ;
+import com.sandy.apps.dcs.component.model.DCDNOTGateModel ;
+import com.sandy.apps.dcs.component.view.DCDNOTGateUI ;
+import com.sandy.apps.dcs.util.Chain ;
 
 public class DCDNOTGate extends DCDGate implements Serializable {
 

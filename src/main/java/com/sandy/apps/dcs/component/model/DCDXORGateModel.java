@@ -1,10 +1,11 @@
 
 package com.sandy.apps.dcs.component.model ;
 
-import java.util.* ;
-import java.io.* ;
+import java.io.Serializable ;
+import java.util.BitSet ;
+import java.util.Observable ;
 
-import com.sandy.apps.dcs.component.* ;
+import com.sandy.apps.dcs.component.DCDXORGate ;
 
 public class DCDXORGateModel extends DCDGateModel implements Serializable {
 

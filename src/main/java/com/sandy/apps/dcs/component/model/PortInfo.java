@@ -1,8 +1,8 @@
 
 package com.sandy.apps.dcs.component.model ;
 
-import java.awt.geom.* ;
-import java.io.* ;
+import java.awt.geom.Point2D ;
+import java.io.Serializable ;
 
 // This class encapsulates the information relating to a specific
 // port on the gate. The ports in a gate are nomenclated as follows.

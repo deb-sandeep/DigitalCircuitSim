@@ -1,13 +1,11 @@
 package com.sandy.apps.dcs.component ;
 
-import java.util.* ;
-import java.awt.event.* ;
-import java.io.* ;
+import java.io.Serializable ;
 
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.component.view.* ;
-import com.sandy.apps.dcs.cor.* ;
-import com.sandy.apps.dcs.exception.* ;
+import com.sandy.apps.dcs.component.model.DCDNANDGateModel ;
+import com.sandy.apps.dcs.component.view.DCDNANDGateUI ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDGateException ;
 
 public class DCDNANDGate extends DCDGate implements Serializable {
 

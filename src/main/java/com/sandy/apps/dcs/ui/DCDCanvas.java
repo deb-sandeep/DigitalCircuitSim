@@ -2,11 +2,12 @@
 
 package com.sandy.apps.dcs.ui ;
 
-import java.awt.* ;
+import java.awt.Color ;
+import java.awt.Graphics ;
 
-import javax.swing.* ;
+import javax.swing.JPanel ;
 
-import com.sandy.apps.dcs.common.* ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCDCanvas extends JPanel {
 

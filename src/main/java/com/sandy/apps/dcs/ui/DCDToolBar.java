@@ -2,12 +2,15 @@
 
 package com.sandy.apps.dcs.ui ;
 
-import javax.swing.* ;
+import java.awt.GridLayout ;
 
-import com.sandy.apps.dcs.factory.* ;
+import javax.swing.ButtonGroup ;
+import javax.swing.JButton ;
+import javax.swing.JPanel ;
+import javax.swing.JToggleButton ;
 
-import java.util.* ;
-import java.awt.* ;
+import com.sandy.apps.dcs.component.factory.ButtonFactory ;
+import com.sandy.apps.dcs.component.factory.ToggleButtonFactory ;
 
 // This will contain the gate and other toggle buttons.
 // This will be called upon by the ComponentFactory to get the

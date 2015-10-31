@@ -1,15 +1,20 @@
 package com.sandy.apps.dcs.component ;
 
-import java.util.* ;
-import java.awt.event.* ;
-import java.io.* ;
+import java.awt.event.ActionEvent ;
+import java.awt.event.ActionListener ;
+import java.io.Serializable ;
 
-import javax.swing.* ;
+import javax.swing.JMenuItem ;
+import javax.swing.JOptionPane ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.component.view.* ;
-import com.sandy.apps.dcs.cor.* ;
+import com.sandy.apps.dcs.component.model.DCDClockModel ;
+import com.sandy.apps.dcs.component.model.DCDGateModel ;
+import com.sandy.apps.dcs.component.model.DCDSteadyInputGateModel ;
+import com.sandy.apps.dcs.component.view.DCDClockUI ;
+import com.sandy.apps.dcs.component.view.DCDComponentUI ;
+import com.sandy.apps.dcs.component.view.DCDGateUI ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCDClock extends DCDInputGate implements Serializable, Runnable,
         ActionListener {

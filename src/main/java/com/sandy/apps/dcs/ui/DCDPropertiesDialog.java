@@ -1,11 +1,19 @@
 package com.sandy.apps.dcs.ui ;
 
-import javax.swing.* ;
+import java.awt.Color ;
+import java.awt.event.ActionEvent ;
+import java.awt.event.ActionListener ;
 
-import com.sandy.apps.dcs.common.* ;
+import javax.swing.JButton ;
+import javax.swing.JCheckBox ;
+import javax.swing.JColorChooser ;
+import javax.swing.JDialog ;
+import javax.swing.JLabel ;
+import javax.swing.JPanel ;
+import javax.swing.JTextField ;
+import javax.swing.WindowConstants ;
 
-import java.awt.event.* ;
-import java.awt.* ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 /**
  * Insert the type's description here. Creation date: (11/16/2000 4:04:06 PM)

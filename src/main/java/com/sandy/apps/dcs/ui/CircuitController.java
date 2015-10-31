@@ -1,9 +1,13 @@
 package com.sandy.apps.dcs.ui ;
 
-import java.awt.* ;
+import java.awt.Graphics ;
 
-import com.sandy.apps.dcs.component.* ;
-import com.sandy.apps.dcs.cor.Chain ;
+import com.sandy.apps.dcs.component.DCDClock ;
+import com.sandy.apps.dcs.component.DCDFlipFlop ;
+import com.sandy.apps.dcs.component.DCDIC ;
+import com.sandy.apps.dcs.component.DCDInputGate ;
+import com.sandy.apps.dcs.component.DCDPulseInputGate ;
+import com.sandy.apps.dcs.util.Chain ;
 
 public interface CircuitController {
 

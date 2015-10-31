@@ -11,8 +11,8 @@ import com.sandy.apps.dcs.component.model.DCDGateModel ;
 import com.sandy.apps.dcs.component.model.DCDICModel ;
 import com.sandy.apps.dcs.component.view.DCDGateUI ;
 import com.sandy.apps.dcs.component.view.DCDICUI ;
-import com.sandy.apps.dcs.cor.Chain ;
 import com.sandy.apps.dcs.ui.DCDICExpanderFrame ;
+import com.sandy.apps.dcs.util.Chain ;
 
 public class DCDIC extends DCDGate implements ActionListener {
 

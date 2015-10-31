@@ -1,12 +1,9 @@
 
 package com.sandy.apps.dcs.component.model ;
 
-import java.util.* ;
-import java.io.* ;
-
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
-import com.sandy.apps.dcs.ui.* ;
+import com.sandy.apps.dcs.component.DCDPulseInputGate ;
+import com.sandy.apps.dcs.ui.DCDController ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCDPulseInputGateModel extends DCDInputGateModel {
 

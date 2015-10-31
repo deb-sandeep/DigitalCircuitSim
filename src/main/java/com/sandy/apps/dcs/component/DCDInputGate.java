@@ -1,13 +1,14 @@
 package com.sandy.apps.dcs.component ;
 
-import java.util.* ;
-import java.awt.event.* ;
-import java.awt.geom.* ;
-import java.io.* ;
+import java.io.Serializable ;
 
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.component.view.* ;
-import com.sandy.apps.dcs.cor.* ;
+import com.sandy.apps.dcs.component.model.DCDGateModel ;
+import com.sandy.apps.dcs.component.model.DCDInputGateModel ;
+import com.sandy.apps.dcs.component.model.Port ;
+import com.sandy.apps.dcs.component.model.PortCollection ;
+import com.sandy.apps.dcs.component.view.DCDGateUI ;
+import com.sandy.apps.dcs.component.view.DCDInputGateUI ;
+import com.sandy.apps.dcs.util.Chain ;
 
 // This class doesnot implement the getType method hence abstract
 public abstract class DCDInputGate extends DCDGate implements Serializable {

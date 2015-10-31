@@ -1,11 +1,12 @@
 
 package com.sandy.apps.dcs.component.model ;
 
-import java.util.* ;
-import java.io.* ;
+import java.io.Serializable ;
+import java.util.BitSet ;
+import java.util.Observable ;
 
-import com.sandy.apps.dcs.component.* ;
-import com.sandy.apps.dcs.component.view.* ;
+import com.sandy.apps.dcs.component.DCDSevenSegmentDisplay ;
+import com.sandy.apps.dcs.component.view.DCDSevenSegmentDisplayUI ;
 
 public class DCDSevenSegmentDisplayModel extends DCDGateModel implements
         Serializable {

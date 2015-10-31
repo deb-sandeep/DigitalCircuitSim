@@ -2,10 +2,11 @@
 
 package com.sandy.apps.dcs.component.model ;
 
-import java.util.* ;
-import java.io.* ;
+import java.io.Serializable ;
+import java.util.Observable ;
 
-import com.sandy.apps.dcs.component.* ;
+import com.sandy.apps.dcs.component.DCDConnector ;
+import com.sandy.apps.dcs.component.DCDTag ;
 
 public class DCDTagModel extends DCDComponentModel implements Serializable {
 

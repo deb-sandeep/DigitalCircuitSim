@@ -9,15 +9,15 @@ import java.util.Hashtable ;
 import org.w3c.dom.Node ;
 import org.w3c.dom.NodeList ;
 
-import com.sandy.apps.dcs.common.DCDUtility ;
+import com.sandy.apps.dcs.component.factory.DCDConnectorUIFactory ;
 import com.sandy.apps.dcs.component.model.DCDComponentModel ;
 import com.sandy.apps.dcs.component.model.DCDGateModel ;
 import com.sandy.apps.dcs.component.model.Port ;
 import com.sandy.apps.dcs.component.model.PortInfo ;
 import com.sandy.apps.dcs.component.view.DCDComponentUI ;
 import com.sandy.apps.dcs.component.view.DCDGateUI ;
-import com.sandy.apps.dcs.cor.Chain ;
-import com.sandy.apps.dcs.factory.DCDConnectorUIFactory ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public abstract class DCDGate extends DCDComponent implements Serializable {
 

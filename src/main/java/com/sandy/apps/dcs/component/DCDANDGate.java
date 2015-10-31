@@ -6,8 +6,8 @@ import com.sandy.apps.dcs.component.model.DCDANDGateModel ;
 import com.sandy.apps.dcs.component.model.DCDGateModel ;
 import com.sandy.apps.dcs.component.view.DCDANDGateUI ;
 import com.sandy.apps.dcs.component.view.DCDGateUI ;
-import com.sandy.apps.dcs.cor.Chain ;
-import com.sandy.apps.dcs.exception.DCDGateException ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDGateException ;
 
 public class DCDANDGate extends DCDGate implements Serializable {
 

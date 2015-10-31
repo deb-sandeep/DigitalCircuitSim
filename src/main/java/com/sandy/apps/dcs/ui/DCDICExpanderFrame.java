@@ -1,13 +1,23 @@
 package com.sandy.apps.dcs.ui ;
 
-import javax.swing.* ;
+import java.awt.BorderLayout ;
+import java.awt.Component ;
+import java.awt.Dimension ;
+import java.awt.Point ;
+import java.awt.event.MouseAdapter ;
+import java.awt.event.MouseEvent ;
+import java.awt.event.MouseMotionAdapter ;
+import java.awt.event.WindowAdapter ;
+import java.awt.event.WindowEvent ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
-import com.sandy.apps.dcs.component.model.* ;
+import javax.swing.JPanel ;
+import javax.swing.JScrollPane ;
+import javax.swing.JSplitPane ;
+import javax.swing.JTable ;
+import javax.swing.JTextArea ;
 
-import java.awt.event.* ;
-import java.awt.* ;
+import com.sandy.apps.dcs.component.DCDComponent ;
+import com.sandy.apps.dcs.component.model.DCDICModel ;
 
 public class DCDICExpanderFrame extends DCDFrame {
 

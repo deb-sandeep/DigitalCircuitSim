@@ -1,16 +1,19 @@
 
 package com.sandy.apps.dcs.component.view ;
 
-import java.util.* ;
-import java.awt.* ;
-import java.awt.event.* ;
-import java.io.* ;
+import java.awt.Component ;
+import java.awt.Graphics ;
+import java.awt.Point ;
+import java.awt.event.MouseEvent ;
+import java.io.Serializable ;
+import java.util.Observable ;
+import java.util.Observer ;
 
-import javax.swing.* ;
+import javax.swing.JMenuItem ;
+import javax.swing.JPopupMenu ;
 
-import com.sandy.apps.dcs.common.* ;
 import com.sandy.apps.dcs.component.DCDComponent ;
-import com.sandy.apps.dcs.component.model.DCDComponentModel ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 // This is the abstract base class of all the displayable components.
 // This stores only the displayable data and incorporates the drawing

@@ -4,10 +4,10 @@
 
 package com.sandy.apps.dcs.ui ;
 
-import java.util.* ;
-import java.awt.* ;
+import java.awt.Graphics ;
+import java.util.Vector ;
 
-import com.sandy.apps.dcs.cor.Chain ;
+import com.sandy.apps.dcs.util.Chain ;
 
 public class DCDMiniController {
 

@@ -1,14 +1,10 @@
 
 package com.sandy.apps.dcs.component.view ;
 
-import java.awt.* ;
-import java.awt.geom.* ;
-import java.awt.event.* ;
-import java.util.* ;
-import java.io.* ;
+import java.awt.Graphics2D ;
+import java.io.Serializable ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
+import com.sandy.apps.dcs.component.DCDSteadyInputGate ;
 
 public class DCDSteadyInputGateUI extends DCDInputGateUI implements
         Serializable {

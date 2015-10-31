@@ -1,4 +1,4 @@
-package com.sandy.apps.dcs.factory ;
+package com.sandy.apps.dcs.component.factory ;
 
 import java.io.File ;
 import java.io.FileReader ;
@@ -17,8 +17,8 @@ import com.sandy.apps.dcs.component.DCDIC ;
 import com.sandy.apps.dcs.component.DCDInputGate ;
 import com.sandy.apps.dcs.component.DCDPulseInputGate ;
 import com.sandy.apps.dcs.component.DCDSteadyInputGate ;
-import com.sandy.apps.dcs.cor.Chain ;
 import com.sandy.apps.dcs.ui.CircuitController ;
+import com.sandy.apps.dcs.util.Chain ;
 import com.sun.org.apache.xerces.internal.parsers.DOMParser ;
 
 // This is the factory class for loading the DCDCircuit from the .dcd

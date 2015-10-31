@@ -5,9 +5,9 @@ import java.io.Serializable ;
 import java.util.BitSet ;
 import java.util.Observable ;
 
-import com.sandy.apps.dcs.common.DCDUtility ;
 import com.sandy.apps.dcs.component.DCDFlipFlop ;
 import com.sandy.apps.dcs.component.DCDGate ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public abstract class DCDFlipFlopModel extends DCDGateModel implements
         Serializable {

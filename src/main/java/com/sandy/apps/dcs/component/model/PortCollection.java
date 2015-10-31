@@ -11,8 +11,8 @@ import org.w3c.dom.NamedNodeMap ;
 import org.w3c.dom.Node ;
 import org.w3c.dom.NodeList ;
 
-import com.sandy.apps.dcs.common.DCDUtility ;
 import com.sandy.apps.dcs.component.DCDConnector ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 /**
  * This represents a collection of Ports.

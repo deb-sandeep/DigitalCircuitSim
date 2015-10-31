@@ -2,15 +2,16 @@
 
 package com.sandy.apps.dcs.component ;
 
-import java.awt.event.* ;
-import java.awt.geom.* ;
-import java.util.* ;
-import java.io.* ;
+import java.awt.event.MouseEvent ;
+import java.awt.geom.Point2D ;
+import java.io.Serializable ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.model.* ;
+import com.sandy.apps.dcs.component.model.DCDDefaultConnectorModel ;
+import com.sandy.apps.dcs.component.model.Port ;
+import com.sandy.apps.dcs.component.model.PortInfo ;
 import com.sandy.apps.dcs.component.view.DCDDefaultConnectorUI ;
-import com.sandy.apps.dcs.cor.Chain ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 // 3-July-2000 : Tried to move the information about the
 // branches to the model of the connector.

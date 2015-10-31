@@ -1,11 +1,15 @@
 package com.sandy.apps.dcs.ui ;
 
-import javax.swing.* ;
+import java.awt.Color ;
+import java.awt.Dimension ;
+import java.awt.Graphics ;
+import java.awt.event.WindowAdapter ;
+import java.awt.event.WindowEvent ;
 
-import com.sandy.apps.dcs.common.* ;
+import javax.swing.JComponent ;
+import javax.swing.JFrame ;
 
-import java.awt.event.* ;
-import java.awt.* ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCDFrame extends JFrame {
 

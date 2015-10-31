@@ -6,7 +6,7 @@ import com.sandy.apps.dcs.component.model.DCDFlipFlopModel ;
 import com.sandy.apps.dcs.component.model.DCDGateModel ;
 import com.sandy.apps.dcs.component.view.DCDFlipFlopUI ;
 import com.sandy.apps.dcs.component.view.DCDGateUI ;
-import com.sandy.apps.dcs.cor.Chain ;
+import com.sandy.apps.dcs.util.Chain ;
 
 public abstract class DCDFlipFlop extends DCDGate implements Serializable {
 

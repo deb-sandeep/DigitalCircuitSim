@@ -7,7 +7,6 @@ import java.util.Enumeration ;
 import java.util.Observable ;
 import java.util.Vector ;
 
-import com.sandy.apps.dcs.common.DCDUtility ;
 import com.sandy.apps.dcs.component.DCDClock ;
 import com.sandy.apps.dcs.component.DCDComponent ;
 import com.sandy.apps.dcs.component.DCDFlipFlop ;
@@ -15,8 +14,9 @@ import com.sandy.apps.dcs.component.DCDIC ;
 import com.sandy.apps.dcs.component.DCDInputGate ;
 import com.sandy.apps.dcs.component.DCDPulseInputGate ;
 import com.sandy.apps.dcs.component.DCDTag ;
-import com.sandy.apps.dcs.cor.Chain ;
 import com.sandy.apps.dcs.ui.CircuitController ;
+import com.sandy.apps.dcs.util.Chain ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCDICModel extends DCDGateModel implements CircuitController {
 

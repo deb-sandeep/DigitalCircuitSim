@@ -1,14 +1,12 @@
 
 package com.sandy.apps.dcs.component.view ;
 
-import java.awt.* ;
-import java.awt.geom.* ;
-import java.awt.event.* ;
-import java.util.* ;
-import java.io.* ;
+import java.awt.Graphics2D ;
+import java.awt.geom.Point2D ;
+import java.io.Serializable ;
+import java.util.Observable ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
+import com.sandy.apps.dcs.component.DCDXORGate ;
 
 public class DCDXORGateUI extends DCDGateUI implements Serializable {
 

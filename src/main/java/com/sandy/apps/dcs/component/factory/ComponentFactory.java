@@ -1,10 +1,25 @@
-package com.sandy.apps.dcs.factory ;
+package com.sandy.apps.dcs.component.factory ;
 
-import java.awt.geom.* ;
+import java.awt.geom.Point2D ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
-import com.sandy.apps.dcs.cor.* ;
+import com.sandy.apps.dcs.component.DCDANDGate ;
+import com.sandy.apps.dcs.component.DCDClock ;
+import com.sandy.apps.dcs.component.DCDComponent ;
+import com.sandy.apps.dcs.component.DCDConnector ;
+import com.sandy.apps.dcs.component.DCDDFlipFlop ;
+import com.sandy.apps.dcs.component.DCDGate ;
+import com.sandy.apps.dcs.component.DCDJKFlipFlop ;
+import com.sandy.apps.dcs.component.DCDLED ;
+import com.sandy.apps.dcs.component.DCDNANDGate ;
+import com.sandy.apps.dcs.component.DCDNOTGate ;
+import com.sandy.apps.dcs.component.DCDORGate ;
+import com.sandy.apps.dcs.component.DCDPulseInputGate ;
+import com.sandy.apps.dcs.component.DCDRSFlipFlop ;
+import com.sandy.apps.dcs.component.DCDSevenSegmentDisplay ;
+import com.sandy.apps.dcs.component.DCDSteadyInputGate ;
+import com.sandy.apps.dcs.component.DCDTFlipFlop ;
+import com.sandy.apps.dcs.component.DCDXORGate ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 /**
  * This factory is used to produce the appropriate Component. This is a

@@ -1,9 +1,9 @@
 // Source file: d:/sandy/dcd/DCD/cor/Chain.java
 
-package com.sandy.apps.dcs.cor ;
+package com.sandy.apps.dcs.util ;
 
-import java.awt.event.* ;
-import java.awt.* ;
+import java.awt.Graphics ;
+import java.awt.event.MouseEvent ;
 
 /**
  * This interface in realized by all the DCD components . This gives rise to the

@@ -1,4 +1,4 @@
-package com.sandy.apps.dcs.factory ;
+package com.sandy.apps.dcs.component.factory ;
 
 import java.awt.geom.Point2D ;
 import java.io.File ;
@@ -17,7 +17,6 @@ import org.w3c.dom.Node ;
 import org.w3c.dom.NodeList ;
 import org.xml.sax.InputSource ;
 
-import com.sandy.apps.dcs.common.DCDUtility ;
 import com.sandy.apps.dcs.component.DCDConnector ;
 import com.sandy.apps.dcs.component.DCDIC ;
 import com.sandy.apps.dcs.component.DCDTag ;
@@ -25,6 +24,7 @@ import com.sandy.apps.dcs.component.model.DCDICModel ;
 import com.sandy.apps.dcs.component.model.Port ;
 import com.sandy.apps.dcs.component.model.PortCollection ;
 import com.sandy.apps.dcs.component.view.DCDICUI ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 import com.sun.org.apache.xerces.internal.parsers.DOMParser ;
 
 // This is a singleton class which is used to load IC's from

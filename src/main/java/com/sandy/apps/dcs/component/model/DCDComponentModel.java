@@ -2,9 +2,9 @@
 
 package com.sandy.apps.dcs.component.model ;
 
+import java.io.Serializable ;
 import java.util.Observable ;
 import java.util.Observer ;
-import java.io.* ;
 
 import com.sandy.apps.dcs.component.DCDComponent ;
 

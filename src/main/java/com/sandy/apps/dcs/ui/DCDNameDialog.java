@@ -1,11 +1,21 @@
 package com.sandy.apps.dcs.ui ;
 
-import javax.swing.* ;
+import java.awt.Dimension ;
+import java.awt.event.ActionEvent ;
+import java.awt.event.ActionListener ;
 
-import com.sandy.apps.dcs.common.* ;
+import javax.swing.Box ;
+import javax.swing.BoxLayout ;
+import javax.swing.JButton ;
+import javax.swing.JDialog ;
+import javax.swing.JLabel ;
+import javax.swing.JPanel ;
+import javax.swing.JScrollPane ;
+import javax.swing.JTextArea ;
+import javax.swing.JTextField ;
+import javax.swing.SwingConstants ;
 
-import java.awt.event.* ;
-import java.awt.* ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 // This dialog is used to collect the name and the relevant information from the
 // gate.

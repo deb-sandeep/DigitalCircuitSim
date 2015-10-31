@@ -1,18 +1,18 @@
 
 package com.sandy.apps.dcs.component.view ;
 
-import java.awt.* ;
-import java.awt.event.* ;
-import java.util.* ;
-import java.awt.geom.* ;
-import java.io.* ;
+import java.awt.Color ;
+import java.awt.FontMetrics ;
+import java.awt.Graphics ;
+import java.awt.Graphics2D ;
+import java.awt.event.MouseEvent ;
+import java.awt.geom.Point2D ;
+import java.awt.geom.Rectangle2D ;
+import java.io.Serializable ;
+import java.util.Observable ;
 
-import javax.swing.* ;
-
-import com.sandy.apps.dcs.common.* ;
 import com.sandy.apps.dcs.component.DCDText ;
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.factory.* ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCDTextUI extends DCDComponentUI implements Serializable {
 

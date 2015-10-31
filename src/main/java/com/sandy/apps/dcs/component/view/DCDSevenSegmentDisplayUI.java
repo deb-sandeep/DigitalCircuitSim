@@ -1,16 +1,15 @@
 
 package com.sandy.apps.dcs.component.view ;
 
-import java.awt.* ;
-import java.awt.geom.* ;
-import java.awt.event.* ;
-import java.util.* ;
-import java.io.* ;
+import java.awt.Color ;
+import java.awt.Graphics2D ;
+import java.awt.geom.Point2D ;
+import java.io.Serializable ;
+import java.util.BitSet ;
+import java.util.Observable ;
 
-import javax.swing.* ;
-
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.* ;
+import com.sandy.apps.dcs.component.DCDSevenSegmentDisplay ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class DCDSevenSegmentDisplayUI extends DCDGateUI implements Serializable {
 

@@ -1,10 +1,10 @@
 
 package com.sandy.apps.dcs.component.model ;
 
-import java.util.* ;
-import java.io.* ;
+import java.io.Serializable ;
+import java.util.Observable ;
 
-import com.sandy.apps.dcs.component.* ;
+import com.sandy.apps.dcs.component.DCDInputGate ;
 
 public class DCDInputGateModel extends DCDGateModel implements Serializable {
 

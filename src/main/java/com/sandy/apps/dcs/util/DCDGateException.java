@@ -1,4 +1,4 @@
-package com.sandy.apps.dcs.exception ;
+package com.sandy.apps.dcs.util ;
 
 public class DCDGateException extends Exception {
 

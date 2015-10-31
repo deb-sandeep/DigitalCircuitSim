@@ -1,4 +1,4 @@
-package com.sandy.apps.dcs.common ;
+package com.sandy.apps.dcs.util ;
 
 import java.awt.Color ;
 import java.awt.Component ;
@@ -36,8 +36,7 @@ import javax.swing.JTextArea ;
 import javax.swing.JToggleButton ;
 
 import com.sandy.apps.dcs.component.DCDComponent ;
-import com.sandy.apps.dcs.cor.Chain ;
-import com.sandy.apps.dcs.factory.DCDICFactory ;
+import com.sandy.apps.dcs.component.factory.DCDICFactory ;
 import com.sandy.apps.dcs.ui.DCDCanvas ;
 import com.sandy.apps.dcs.ui.DCDController ;
 import com.sandy.apps.dcs.ui.DCDFrame ;

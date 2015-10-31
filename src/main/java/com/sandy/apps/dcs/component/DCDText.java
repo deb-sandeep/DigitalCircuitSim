@@ -1,14 +1,10 @@
 package com.sandy.apps.dcs.component ;
 
-import java.awt.event.* ;
-import java.awt.geom.* ;
-import java.util.* ;
-import java.io.* ;
+import java.awt.event.MouseEvent ;
+import java.awt.geom.Point2D ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.component.view.* ;
-import com.sandy.apps.dcs.cor.Chain ;
+import com.sandy.apps.dcs.component.view.DCDTextUI ;
+import com.sandy.apps.dcs.util.Chain ;
 
 // This is a text message that can be displayed on the screen.
 // This can be used for displaying important messages on the screen.

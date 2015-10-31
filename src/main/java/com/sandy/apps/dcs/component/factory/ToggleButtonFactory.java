@@ -1,11 +1,10 @@
-package com.sandy.apps.dcs.factory ;
+package com.sandy.apps.dcs.component.factory ;
 
-import javax.swing.* ;
+import java.awt.Dimension ;
 
-import com.sandy.apps.dcs.common.* ;
+import javax.swing.JToggleButton ;
 
-import java.awt.* ;
-import java.awt.event.* ;
+import com.sandy.apps.dcs.util.DCDUtility ;
 
 public class ToggleButtonFactory {
 

@@ -1,14 +1,12 @@
 package com.sandy.apps.dcs.component ;
 
-import java.awt.event.* ;
-import java.awt.geom.* ;
-import java.util.* ;
-import java.io.* ;
+import java.awt.event.MouseEvent ;
+import java.awt.geom.Point2D ;
+import java.io.Serializable ;
 
-import com.sandy.apps.dcs.common.* ;
-import com.sandy.apps.dcs.component.model.* ;
-import com.sandy.apps.dcs.component.view.* ;
-import com.sandy.apps.dcs.cor.Chain ;
+import com.sandy.apps.dcs.component.model.DCDTagModel ;
+import com.sandy.apps.dcs.component.model.Port ;
+import com.sandy.apps.dcs.component.view.DCDTagUI ;
 
 // This is a tag.. .that can be used to identify the ports of a IC
 // before saving the circuit as an IC.
