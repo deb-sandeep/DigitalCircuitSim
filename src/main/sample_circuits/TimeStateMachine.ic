@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCDIC numPorts="7" name="Time State Machine">
+	<ShortDescription>
+		Time State Machine.
+	</ShortDescription>
+	<LongDescription>
+		This is a time state machine. This has the control functions associated with for the following functions.
+
+1) When the SET TIME is not 1 then this oscillates with the clock frequency.
+
+2) When the SET TIME is 1 this lets the inc_hour and inc_minute pulses pass and blocks the clock pulses.
+	</LongDescription>
+	<Connectors>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[265.0376.0302.0376.0]"/>
+			<DCDConnectorUI>
+				<Point x="265.0" y="376.0"  />
+				<Point x="302.0" y="376.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[342.0376.0375.0375.0]"/>
+			<DCDConnectorUI>
+				<Point x="342.0" y="376.0"  />
+				<Point x="375.0" y="375.0"  />
+				<Point x="373.0" y="356.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[127.0189.0127.0372.0]"/>
+			<DCDConnectorUI>
+				<Point x="127.0" y="189.0"  />
+				<Point x="127.0" y="372.0"  />
+				<Point x="151.0" y="372.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[80.0305.080.0382.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[211.0381.0211.0418.0]"/>
+			<DCDConnectorUI>
+				<Point x="211.0" y="381.0"  />
+				<Point x="211.0" y="418.0"  />
+				<Point x="302.0" y="416.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[413.0351.0447.0350.0]"/>
+			<DCDConnectorUI>
+				<Point x="413.0" y="351.0"  />
+				<Point x="447.0" y="350.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[191.0372.0225.0371.0]"/>
+			<DCDConnectorUI>
+				<Point x="191.0" y="372.0"  />
+				<Point x="225.0" y="371.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[80.0305.080.0382.0]"/>
+			<DCDConnectorUI>
+				<Point x="80.0" y="305.0"  />
+				<Point x="80.0" y="382.0"  />
+				<Point x="225.0" y="381.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[268.0232.0378.0233.0]"/>
+			<DCDConnectorUI>
+				<Point x="268.0" y="232.0"  />
+				<Point x="378.0" y="233.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[191.0372.0225.0371.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[208.0371.0208.0343.0]"/>
+			<DCDConnectorUI>
+				<Point x="208.0" y="371.0"  />
+				<Point x="208.0" y="343.0"  />
+				<Point x="360.0" y="343.0"  />
+				<Point x="373.0" y="346.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[122.0220.0210.0220.0]"/>
+			<DCDConnectorUI>
+				<Point x="122.0" y="220.0"  />
+				<Point x="210.0" y="220.0"  />
+				<Point x="210.0" y="227.0"  />
+				<Point x="228.0" y="227.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[127.0189.0127.0372.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[127.0237.0228.0237.0]"/>
+			<DCDConnectorUI>
+				<Point x="127.0" y="237.0"  />
+				<Point x="228.0" y="237.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[267.0275.0377.0277.0]"/>
+			<DCDConnectorUI>
+				<Point x="267.0" y="275.0"  />
+				<Point x="377.0" y="277.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="true" parentID="CONNECTOR[127.0189.0127.0372.0]" name="CONNECTOR">
+			<ID value="CONNECTOR[127.0280.0227.0280.0]"/>
+			<DCDConnectorUI>
+				<Point x="127.0" y="280.0"  />
+				<Point x="227.0" y="280.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[119.0262.0210.0263.0]"/>
+			<DCDConnectorUI>
+				<Point x="119.0" y="262.0"  />
+				<Point x="210.0" y="263.0"  />
+				<Point x="210.0" y="272.0"  />
+				<Point x="227.0" y="270.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+	</Connectors>
+	<Gates>
+		<DCDGate type="TFLIPFLOP" numInputPorts="2" name="TFLIPFLOP">
+			<ID value="TFLIPFLOP322;396" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[265.0376.0302.0376.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[211.0381.0211.0418.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[342.0376.0375.0375.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="null" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="302" y="361" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="AND" numInputPorts="2" name="AND">
+			<ID value="AND245;376" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[191.0372.0225.0371.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[80.0305.080.0382.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[265.0376.0302.0376.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="225" y="361" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="NOT" numInputPorts="1" name="NOT">
+			<ID value="NOT171;372" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[127.0189.0127.0372.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[191.0372.0225.0371.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="151" y="357" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="AND" numInputPorts="2" name="AND">
+			<ID value="AND248;232" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[122.0220.0210.0220.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[127.0237.0228.0237.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[268.0232.0378.0233.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="228" y="217" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="AND" numInputPorts="2" name="AND">
+			<ID value="AND247;275" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[119.0262.0210.0263.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[127.0280.0227.0280.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[267.0275.0377.0277.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="227" y="260" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="AND" numInputPorts="2" name="AND">
+			<ID value="AND393;351" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="2" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[208.0371.0208.0343.0]" />
+				</Port>
+
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[342.0376.0375.0375.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[413.0351.0447.0350.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="373" y="336" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+	</Gates>
+	<ICs>
+	</ICs>
+	<TagCollection>
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[413.0351.0447.0350.0]" />
+				</Port>
+		<Location>
+			<Point x="447" y="350"  />
+		</Location>
+			<ShortDescription>
+INC_SEC			</ShortDescription>
+			<LongDescription>
+This is the seconds increment. This is the clock pulse when the SET_TIME is set to 0			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="2" />
+					<ConnectorID value="CONNECTOR[267.0275.0377.0277.0]" />
+				</Port>
+		<Location>
+			<Point x="377" y="277"  />
+		</Location>
+			<ShortDescription>
+INC_MINUTES			</ShortDescription>
+			<LongDescription>
+This is the minute increment. This ticks once for each SET_MINUTE pulse when the SET_TIME is 1			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="OUTPUT">
+<Port>
+					<ID value="3" />
+					<ConnectorID value="CONNECTOR[268.0232.0378.0233.0]" />
+				</Port>
+		<Location>
+			<Point x="378" y="233"  />
+		</Location>
+			<ShortDescription>
+SET_HOURS			</ShortDescription>
+			<LongDescription>
+This is the hour pulse of the Time State Machine when the SET_TIME is 1			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="4" />
+					<ConnectorID value="CONNECTOR[127.0189.0127.0372.0]" />
+				</Port>
+		<Location>
+			<Point x="127" y="189"  />
+		</Location>
+			<ShortDescription>
+SET_TIME			</ShortDescription>
+			<LongDescription>
+This switch when 1, makes the Time State Machine function as a time adjusting machine. This blocks off the clock pulses and releases only the set_hrs and set_minute pulses			</LongDescription>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="5" />
+					<ConnectorID value="CONNECTOR[122.0220.0210.0220.0]" />
+				</Port>
+		<Location>
+			<Point x="122" y="220"  />
+		</Location>
+			<ShortDescription>
+SET_HOUR			</ShortDescription>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="6" />
+					<ConnectorID value="CONNECTOR[119.0262.0210.0263.0]" />
+				</Port>
+		<Location>
+			<Point x="119" y="262"  />
+		</Location>
+			<ShortDescription>
+SET_MINUTES			</ShortDescription>
+		</Tag>
+
+		<Tag Name="" Type="INPUT">
+<Port>
+					<ID value="7" />
+					<ConnectorID value="CONNECTOR[80.0305.080.0382.0]" />
+				</Port>
+		<Location>
+			<Point x="80" y="305"  />
+		</Location>
+			<ShortDescription>
+CLOCK			</ShortDescription>
+		</Tag>
+
+	</TagCollection>
+</DCDIC>

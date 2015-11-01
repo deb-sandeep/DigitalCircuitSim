@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DCDCircuit>
+	<ShortDescription>
+		aldsfj
+	</ShortDescription>
+	<LongDescription>
+		ldasjfalkfj	
+	</LongDescription>
+	<Connectors>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[271.065.0271.0239.0]"/>
+			<DCDConnectorUI>
+				<Point x="271.0" y="65.0"  />
+				<Point x="271.0" y="239.0"  />
+				<Point x="321.0" y="237.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0309.0428.0309.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="309.0"  />
+				<Point x="428.0" y="309.0"  />
+				<Point x="428.0" y="431.0"  />
+				<Point x="341.0" y="432.0"  />
+				<Point x="341.0" y="456.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[88.0255.0230.0255.0]"/>
+			<DCDConnectorUI>
+				<Point x="88.0" y="255.0"  />
+				<Point x="230.0" y="255.0"  />
+				<Point x="230.0" y="321.0"  />
+				<Point x="321.0" y="321.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[151.0365.0151.0271.0]"/>
+			<DCDConnectorUI>
+				<Point x="151.0" y="365.0"  />
+				<Point x="151.0" y="271.0"  />
+				<Point x="321.0" y="273.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0261.0403.0261.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="261.0"  />
+				<Point x="403.0" y="261.0"  />
+				<Point x="403.0" y="394.0"  />
+				<Point x="139.0" y="394.0"  />
+				<Point x="141.0" y="456.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[89.0217.0242.0217.0]"/>
+			<DCDConnectorUI>
+				<Point x="89.0" y="217.0"  />
+				<Point x="242.0" y="217.0"  />
+				<Point x="242.0" y="310.0"  />
+				<Point x="321.0" y="309.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0333.0443.0333.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="333.0"  />
+				<Point x="443.0" y="333.0"  />
+				<Point x="443.0" y="456.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[211.065.0211.0250.0]"/>
+			<DCDConnectorUI>
+				<Point x="211.0" y="65.0"  />
+				<Point x="211.0" y="250.0"  />
+				<Point x="321.0" y="249.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[90.0182.0255.0182.0]"/>
+			<DCDConnectorUI>
+				<Point x="90.0" y="182.0"  />
+				<Point x="255.0" y="182.0"  />
+				<Point x="255.0" y="295.0"  />
+				<Point x="321.0" y="297.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[149.065.0149.0260.0]"/>
+			<DCDConnectorUI>
+				<Point x="149.0" y="65.0"  />
+				<Point x="149.0" y="260.0"  />
+				<Point x="321.0" y="261.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[331.065.0331.0169.0]"/>
+			<DCDConnectorUI>
+				<Point x="331.0" y="65.0"  />
+				<Point x="331.0" y="169.0"  />
+				<Point x="301.0" y="169.0"  />
+				<Point x="301.0" y="225.0"  />
+				<Point x="321.0" y="225.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0297.0421.0297.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="297.0"  />
+				<Point x="421.0" y="297.0"  />
+				<Point x="421.0" y="421.0"  />
+				<Point x="291.0" y="421.0"  />
+				<Point x="292.0" y="456.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0273.0407.0273.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="273.0"  />
+				<Point x="407.0" y="273.0"  />
+				<Point x="407.0" y="403.0"  />
+				<Point x="189.0" y="403.0"  />
+				<Point x="190.0" y="455.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[509.066.0509.0226.0]"/>
+			<DCDConnectorUI>
+				<Point x="509.0" y="66.0"  />
+				<Point x="509.0" y="226.0"  />
+				<Point x="391.0" y="225.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0285.0413.0285.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="285.0"  />
+				<Point x="413.0" y="285.0"  />
+				<Point x="413.0" y="412.0"  />
+				<Point x="241.0" y="412.0"  />
+				<Point x="241.0" y="456.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0321.0437.0321.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="321.0"  />
+				<Point x="437.0" y="321.0"  />
+				<Point x="437.0" y="442.0"  />
+				<Point x="392.0" y="442.0"  />
+				<Point x="393.0" y="456.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0249.0396.0249.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="249.0"  />
+				<Point x="396.0" y="249.0"  />
+				<Point x="396.0" y="384.0"  />
+				<Point x="90.0" y="385.0"  />
+				<Point x="90.0" y="456.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0237.0570.0237.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="237.0"  />
+				<Point x="570.0" y="237.0"  />
+				<Point x="570.0" y="65.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[73.0366.079.0364.0]"/>
+			<DCDConnectorUI>
+				<Point x="73.0" y="366.0"  />
+				<Point x="79.0" y="364.0"  />
+				<Point x="96.0" y="365.0"  />
+				<Point x="96.0" y="284.0"  />
+				<Point x="321.0" y="285.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[321.0213.0321.0179.0]"/>
+			<DCDConnectorUI>
+				<Point x="321.0" y="213.0"  />
+				<Point x="321.0" y="179.0"  />
+				<Point x="391.0" y="179.0"  />
+				<Point x="390.0" y="66.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+		<DCDConnector isBranch="false" name="CONNECTOR">
+			<ID value="CONNECTOR[391.0213.0448.0213.0]"/>
+			<DCDConnectorUI>
+				<Point x="391.0" y="213.0"  />
+				<Point x="448.0" y="213.0"  />
+				<Point x="449.0" y="66.0"  />
+			</DCDConnectorUI>
+
+		</DCDConnector>
+	</Connectors>
+	<Gates>
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="READ / WRITE">
+			<ID value="STEADY_INPUT131;365" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[151.0365.0151.0271.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="111" y="350" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT68;255" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[88.0255.0230.0255.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="48" y="240" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT69;217" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[89.0217.0242.0217.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="49" y="202" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT70;182" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[90.0182.0255.0182.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="50" y="167" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="LED" numInputPorts="1" name="LED">
+			<ID value="LED463;456" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0333.0443.0333.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="443" y="441" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="LED" numInputPorts="1" name="LED">
+			<ID value="LED413;456" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0321.0437.0321.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="393" y="441" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="LED" numInputPorts="1" name="LED">
+			<ID value="LED361;456" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0309.0428.0309.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="341" y="441" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="LED" numInputPorts="1" name="LED">
+			<ID value="LED312;456" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0297.0421.0297.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="292" y="441" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="LED" numInputPorts="1" name="LED">
+			<ID value="LED261;456" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0285.0413.0285.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="241" y="441" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="LED" numInputPorts="1" name="LED">
+			<ID value="LED210;455" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0273.0407.0273.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="190" y="440" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="LED" numInputPorts="1" name="LED">
+			<ID value="LED161;456" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0261.0403.0261.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="141" y="441" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="LED" numInputPorts="1" name="LED">
+			<ID value="LED110;456" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0249.0396.0249.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="90" y="441" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT550;65" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0237.0570.0237.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="530" y="50" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT489;66" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[509.066.0509.0226.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="469" y="51" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT429;66" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[391.0213.0448.0213.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="409" y="51" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT370;66" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[321.0213.0321.0179.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="350" y="51" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT311;65" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[331.065.0331.0169.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="291" y="50" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT251;65" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[271.065.0271.0239.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="231" y="50" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT191;65" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[211.065.0211.0250.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="171" y="50" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT129;65" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[149.065.0149.0260.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="109" y="50" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+		<DCDGate type="STEADY_INPUT" numInputPorts="0" name="STEADY_INPUT">
+			<ID value="STEADY_INPUT53;366" />
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="0" >
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="1" >
+					<Port>
+					<ID value="0" />
+					<ConnectorID value="CONNECTOR[73.0366.079.0364.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+			<DCDGateUI>
+				<Point x="33" y="351" />
+			</DCDGateUI>
+
+		</DCDGate>
+
+	</Gates>
+	<ICs>
+		<DCDIC fileName="8X8RAM" name="IC">
+			<DCDGateUI>
+				<Point x="321" y="201" />
+			</DCDGateUI>
+
+			<DCDGateModel>
+				<InputPorts>
+										<PortCollection NumPorts="13" >
+					<Port>
+					<ID value="9" />
+					<ConnectorID value="CONNECTOR[391.0237.0570.0237.0]" />
+				</Port>
+
+					<Port>
+					<ID value="10" />
+					<ConnectorID value="CONNECTOR[509.066.0509.0226.0]" />
+				</Port>
+
+					<Port>
+					<ID value="11" />
+					<ConnectorID value="CONNECTOR[391.0213.0448.0213.0]" />
+				</Port>
+
+					<Port>
+					<ID value="12" />
+					<ConnectorID value="CONNECTOR[321.0213.0321.0179.0]" />
+				</Port>
+
+					<Port>
+					<ID value="13" />
+					<ConnectorID value="CONNECTOR[331.065.0331.0169.0]" />
+				</Port>
+
+					<Port>
+					<ID value="14" />
+					<ConnectorID value="CONNECTOR[271.065.0271.0239.0]" />
+				</Port>
+
+					<Port>
+					<ID value="15" />
+					<ConnectorID value="CONNECTOR[211.065.0211.0250.0]" />
+				</Port>
+
+					<Port>
+					<ID value="16" />
+					<ConnectorID value="CONNECTOR[149.065.0149.0260.0]" />
+				</Port>
+
+					<Port>
+					<ID value="17" />
+					<ConnectorID value="CONNECTOR[151.0365.0151.0271.0]" />
+				</Port>
+
+					<Port>
+					<ID value="18" />
+					<ConnectorID value="CONNECTOR[73.0366.079.0364.0]" />
+				</Port>
+
+					<Port>
+					<ID value="19" />
+					<ConnectorID value="CONNECTOR[90.0182.0255.0182.0]" />
+				</Port>
+
+					<Port>
+					<ID value="20" />
+					<ConnectorID value="CONNECTOR[89.0217.0242.0217.0]" />
+				</Port>
+
+					<Port>
+					<ID value="21" />
+					<ConnectorID value="CONNECTOR[88.0255.0230.0255.0]" />
+				</Port>
+
+					</PortCollection>
+				</InputPorts>
+				<OutputPorts>
+										<PortCollection NumPorts="8" >
+					<Port>
+					<ID value="1" />
+					<ConnectorID value="CONNECTOR[391.0333.0443.0333.0]" />
+				</Port>
+
+					<Port>
+					<ID value="2" />
+					<ConnectorID value="CONNECTOR[391.0321.0437.0321.0]" />
+				</Port>
+
+					<Port>
+					<ID value="3" />
+					<ConnectorID value="CONNECTOR[391.0309.0428.0309.0]" />
+				</Port>
+
+					<Port>
+					<ID value="4" />
+					<ConnectorID value="CONNECTOR[391.0297.0421.0297.0]" />
+				</Port>
+
+					<Port>
+					<ID value="5" />
+					<ConnectorID value="CONNECTOR[391.0285.0413.0285.0]" />
+				</Port>
+
+					<Port>
+					<ID value="6" />
+					<ConnectorID value="CONNECTOR[391.0273.0407.0273.0]" />
+				</Port>
+
+					<Port>
+					<ID value="7" />
+					<ConnectorID value="CONNECTOR[391.0261.0403.0261.0]" />
+				</Port>
+
+					<Port>
+					<ID value="8" />
+					<ConnectorID value="CONNECTOR[391.0249.0396.0249.0]" />
+				</Port>
+
+					</PortCollection>
+				</OutputPorts>
+			</DCDGateModel>
+
+		</DCDIC>
+
+	</ICs>
+	<DCDMessages>
+		<DCDMessage value="Read / Write" x="110" y="382"/>
+
+		<DCDMessage value="Output Data Bus - 8 Bits" x="211" y="515"/>
+
+		<DCDMessage value="8 X 8 RAM" x="333" y="357"/>
+
+		<DCDMessage value="0" x="460" y="481"/>
+
+		<DCDMessage value="1" x="410" y="481"/>
+
+		<DCDMessage value="2" x="359" y="481"/>
+
+		<DCDMessage value="3" x="310" y="481"/>
+
+		<DCDMessage value="4" x="259" y="480"/>
+
+		<DCDMessage value="5" x="209" y="480"/>
+
+		<DCDMessage value="6" x="159" y="480"/>
+
+		<DCDMessage value="7" x="109" y="479"/>
+
+		<DCDMessage value="1" x="483" y="91"/>
+
+		<DCDMessage value="2" x="423" y="89"/>
+
+		<DCDMessage value="3" x="372" y="91"/>
+
+		<DCDMessage value="4" x="304" y="89"/>
+
+		<DCDMessage value="5" x="253" y="91"/>
+
+		<DCDMessage value="6" x="192" y="90"/>
+
+		<DCDMessage value="7" x="124" y="90"/>
+
+		<DCDMessage value="0" x="549" y="90"/>
+
+		<DCDMessage value="Input Data Bus - 8 Bits" x="270" y="42"/>
+
+		<DCDMessage value="0" x="88" y="250"/>
+
+		<DCDMessage value="1" x="89" y="210"/>
+
+		<DCDMessage value="2" x="90" y="171"/>
+
+		<DCDMessage value="3 bit Address Bus" x="17" y="151"/>
+
+		<DCDMessage value="Memory ENABLE" x="18" y="350"/>
+
+	</DCDMessages>
+</DCDCircuit>
